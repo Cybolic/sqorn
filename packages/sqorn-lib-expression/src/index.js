@@ -94,7 +94,13 @@ const string = {
   likeAny: binary('like any'),
   notLikeAny: binary('not like any'),
   likeAll: binary('like all'),
-  notLikeAll: binary('not like all')
+  notLikeAll: binary('not like all'),
+  iLike: binary('ilike'),
+  notILike: binary('not ilike'),
+  iLikeAny: binary('ilike any'),
+  notILikeAny: binary('not ilike any'),
+  iLikeAll: binary('ilike all'),
+  notILikeAll: binary('not ilike all')
 }
 
 const array = {

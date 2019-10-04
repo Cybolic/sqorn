@@ -2,6 +2,9 @@
 
 Sqorn is a Javascript library for building SQL queries.
 
+This fork adds:
+ - ILIKE expressions
+
 **Composable:** Build complex queries from simple parts. Chain, extend, and embed queries.
 
 **Intuitive**: Sqorn's use of modern Javascript language features like tagged template literals and promises makes building and issuing SQL queries a breeze.
