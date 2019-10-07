@@ -12,5 +12,8 @@
   "homepage": "https://sqorn.org",
   "publishConfig": {
     "access": "public"
+  },
+  "gitpkg": {
+    "registry":"git@github.com:Cybolic/gitpkg-repo.git"
   }
 }

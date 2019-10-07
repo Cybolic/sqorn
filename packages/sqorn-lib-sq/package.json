@@ -25,6 +25,9 @@
     "literals"
   ],
   "dependencies": {
-    "@sqorn/lib-util": "^0.0.45"
+    "@sqorn/lib-util": "github:/Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.45-gitpkg"
+  },
+  "gitpkg": {
+    "registry":"git@github.com:Cybolic/gitpkg-repo.git"
   }
 }

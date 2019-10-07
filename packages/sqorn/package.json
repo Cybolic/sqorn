@@ -1,6 +1,6 @@
 {
   "name": "sqorn",
-  "version": "0.0.45",
+  "version": "0.0.45-1",
   "description": "A Javascript Library for Building SQL Queries",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -24,6 +24,9 @@
     "postgresql"
   ],
   "dependencies": {
-    "@sqorn/pg": "^0.0.45"
+    "@sqorn/pg": "github:Cybolic/gitpkg-repo.git#sqorn-pg-v0.0.45-1-gitpkg"
+  },
+  "gitpkg": {
+    "registry":"git@github.com:Cybolic/gitpkg-repo.git"
   }
 }

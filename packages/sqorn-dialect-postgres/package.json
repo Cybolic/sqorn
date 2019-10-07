@@ -14,7 +14,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@sqorn/lib-expression": "^0.0.45",
-    "@sqorn/lib-sq": "^0.0.45"
+    "@sqorn/lib-expression": "github:Cybolic/gitpkg-repo.git#sqorn-lib-expression-v0.0.45-gitpkg",
+    "@sqorn/lib-sq": "github:Cybolic/gitpkg-repo.git#sqorn-lib-sq-v0.0.45-gitpkg"
+  },
+  "gitpkg": {
+    "registry":"git@github.com:Cybolic/gitpkg-repo.git"
   }
 }
