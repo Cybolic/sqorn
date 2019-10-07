@@ -104,7 +104,8 @@ const string = {
 }
 
 const array = {
-  unnest: naryFunction('unnest')
+  unnest: naryFunction('unnest'),
+  coalesce: naryFunction('coalesce')
 }
 
 module.exports = {

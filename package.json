@@ -5,14 +5,14 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "version": "0.0.46",
+  "version": "0.0.47",
   "scripts": {
     "lerna": "lerna",
     "bootstrap-lerna": "lerna bootstrap",
     "bootstrap": "./tools/update-package-version-in-packages.sh",
     "clean": "lerna clean --yes",
     "publish-lerna": "lerna publish",
-    "publish": "for i in sqorn-adapter-pg sqorn-builder-expression sqorn-dialect-postgres sqorn-lib-core sqorn-lib-expression sqorn-lib-sq sqorn-lib-util sqorn-pg sqorn; do cd './packages/'$i; gitpkg publish --registry git@github.com:Cybolic/gitpkg-repo.git; cd ../..; done",
+    "publish": "for i in sqorn-adapter-pg sqorn-builder-expression sqorn-builder-sq sqorn-dialect-postgres sqorn-lib-core sqorn-lib-expression sqorn-lib-sq sqorn-lib-util sqorn-pg sqorn; do cd './packages/'$i; gitpkg publish --registry git@github.com:Cybolic/gitpkg-repo.git; cd ../..; done",
     "test": "jest test/*",
     "test:db": "jest test/database/**"
   },
