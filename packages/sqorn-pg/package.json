@@ -1,6 +1,6 @@
 {
   "name": "@sqorn/pg",
-  "version": "0.0.45-1",
+  "version": "0.0.46",
   "description": "A Javascript library for building Postgres queries",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -25,9 +25,9 @@
     "node-postgres"
   ],
   "dependencies": {
-    "@sqorn/adapter-pg": "github:Cybolic/gitpkg-repo.git#sqorn-adapter-pg-v0.0.45-gitpkg",
-    "@sqorn/dialect-postgres": "github:Cybolic/gitpkg-repo.git#sqorn-dialect-postgres-v0.0.45-gitpkg",
-    "@sqorn/lib-core": "github:Cybolic/gitpkg-repo.git#sqorn-lib-core-v0.0.45-1-gitpkg"
+    "@sqorn/adapter-pg": "github:Cybolic/gitpkg-repo.git#sqorn-adapter-pg-v0.0.46-gitpkg",
+    "@sqorn/dialect-postgres": "github:Cybolic/gitpkg-repo.git#sqorn-dialect-postgres-v0.0.46-gitpkg",
+    "@sqorn/lib-core": "github:Cybolic/gitpkg-repo.git#sqorn-lib-core-v0.0.46-gitpkg"
   },
   "gitpkg": {
     "registry":"git@github.com:Cybolic/gitpkg-repo.git"
