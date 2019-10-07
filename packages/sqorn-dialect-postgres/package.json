@@ -1,6 +1,6 @@
 {
   "name": "@sqorn/dialect-postgres",
-  "version": "0.0.46",
+  "version": "0.0.48",
   "description": "Sqorn Postgres Dialect",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@sqorn/lib-expression": "github:Cybolic/gitpkg-repo.git#sqorn-lib-expression-v0.0.46-gitpkg",
-    "@sqorn/lib-sq": "github:Cybolic/gitpkg-repo.git#sqorn-lib-sq-v0.0.46-gitpkg"
+    "@sqorn/lib-expression": "github:Cybolic/gitpkg-repo.git#sqorn-lib-expression-v0.0.48-gitpkg",
+    "@sqorn/lib-sq": "github:Cybolic/gitpkg-repo.git#sqorn-lib-sq-v0.0.48-gitpkg"
   },
   "gitpkg": {
     "registry":"git@github.com:Cybolic/gitpkg-repo.git"

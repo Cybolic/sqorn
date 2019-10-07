@@ -1,6 +1,6 @@
 {
   "name": "@sqorn/lib-core",
-  "version": "0.0.46",
+  "version": "0.0.48",
   "description": "Sqorn Core Library",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -14,9 +14,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@sqorn/builder-expression": "github:Cybolic/gitpkg-repo.git#sqorn-builder-expression-v0.0.46-gitpkg",
-    "@sqorn/builder-sq": "github:Cybolic/gitpkg-repo.git#sqorn-builder-sq-v0.0.46-gitpkg",
-    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.46-gitpkg"
+    "@sqorn/builder-expression": "github:Cybolic/gitpkg-repo.git#sqorn-builder-expression-v0.0.48-gitpkg",
+    "@sqorn/builder-sq": "github:Cybolic/gitpkg-repo.git#sqorn-builder-sq-v0.0.48-gitpkg",
+    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.48-gitpkg"
   },
   "gitpkg": {
     "registry":"git@github.com:Cybolic/gitpkg-repo.git"

@@ -1,6 +1,6 @@
 {
   "name": "@sqorn/builder-sq",
-  "version": "0.0.46",
+  "version": "0.0.48",
   "description": "Sqorn Untyped Query Builder",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "literals"
   ],
   "dependencies": {
-    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.46-gitpkg"
+    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.48-gitpkg"
   },
   "gitpkg": {
     "registry":"git@github.com:Cybolic/gitpkg-repo.git"
