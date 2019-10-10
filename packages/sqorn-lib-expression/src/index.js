@@ -73,9 +73,9 @@ const comparison = {
   lteAll: quantifiedComparison('<= all'),
   gteAll: quantifiedComparison('>= all'),
   // array types
-  overlaps: quantifiedComparison('&&'),
-  contains: quantifiedComparison('@>'),
-  containedBy: quantifiedComparison('<@')
+  overlaps: binary('&&'),
+  contains: binary('@>'),
+  containedBy: binary('<@')
 }
 
 // math
