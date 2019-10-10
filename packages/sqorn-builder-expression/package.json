@@ -1,6 +1,6 @@
 {
   "name": "@sqorn/builder-expression",
-  "version": "0.0.49",
+  "version": "0.0.50",
   "description": "Sqorn Expression Builder",
   "author": "Sufyan Dawoodjee <eejdoowad@gmail.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.49-gitpkg"
+    "@sqorn/lib-util": "github:Cybolic/gitpkg-repo.git#sqorn-lib-util-v0.0.50-gitpkg"
   },
   "gitpkg": {
     "registry":"git@github.com:Cybolic/gitpkg-repo.git"
