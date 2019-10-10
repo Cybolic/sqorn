@@ -4,6 +4,8 @@ Sqorn is a Javascript library for building SQL queries.
 
 This fork adds:
  - ILIKE expressions
+ - COALESCE function
+ - Array comparison operators (`&& = overlaps`, `@> = contains` and `<@ = containedBy`)
 
 **Composable:** Build complex queries from simple parts. Chain, extend, and embed queries.
 

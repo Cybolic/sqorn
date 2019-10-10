@@ -105,7 +105,10 @@ const string = {
 
 const array = {
   unnest: naryFunction('unnest'),
-  coalesce: naryFunction('coalesce')
+  coalesce: naryFunction('coalesce'),
+  overlaps: binary('&&'),
+  contains: binary('@>'),
+  containedBy: binary('<@')
 }
 
 module.exports = {
