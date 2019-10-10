@@ -71,7 +71,11 @@ const comparison = {
   ltAll: quantifiedComparison('< all'),
   gtAll: quantifiedComparison('> all'),
   lteAll: quantifiedComparison('<= all'),
-  gteAll: quantifiedComparison('>= all')
+  gteAll: quantifiedComparison('>= all'),
+  // array types
+  overlaps: quantifiedComparison('&&'),
+  contains: quantifiedComparison('@>'),
+  containedBy: quantifiedComparison('<@')
 }
 
 // math
@@ -105,10 +109,7 @@ const string = {
 
 const array = {
   unnest: naryFunction('unnest'),
-  coalesce: naryFunction('coalesce'),
-  overlaps: binary('&&'),
-  contains: binary('@>'),
-  containedBy: binary('<@')
+  coalesce: naryFunction('coalesce')
 }
 
 module.exports = {
